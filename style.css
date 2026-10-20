@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: rgb(33, 33, 36);   
+    
 }
 
 header,
@@ -10,28 +12,33 @@ footer{
     width: 90%;
     max-width: 1024px;
     margin: 4rem auto;
+    font-family: "Cantarell", sans-serif;
+    color:aliceblue;
 }
 
 .perfil {
     width: 140px;
     height: 140px;
-    border: solid 2px rgb(255, 106, 0);
+    border: solid 2px rgb(159, 183, 219);
     border-radius: 100%;
     object-fit: cover;
 }
 
 header {
     text-align: center;
+    font-family: "Nunito", sans-serif;
+    color: aliceblue;
 }
 
 .projetos {
     list-style: none;
     display: grid;
     gap: 1rem;
+    font-family: "Cantarell", sans-serif;
 }
 
 .projetos li {
-    border: solid 1px rgb(255, 106, 0);
+    border: solid 1px rgb(159, 183, 219);
     padding: 2rem;
 }
 
@@ -46,17 +53,17 @@ header {
 }
 
 .links li a {
-    border: solid 1px rgb(255, 106, 0);
+    border: solid 1px rgb(159, 183, 219);
     padding: 1rem;
     text-decoration: none;
-    color: rgb(255, 106, 0);
+    color: rgb(255, 255, 255);
     display: block;
     transition: all .5s ease;
 }
 
 .links li a:hover {
     color: white;
-    background: rgb(255, 106, 0);
+    background: rgb(159, 183, 219);
 }
 
 @media (min-width: 768px) {
